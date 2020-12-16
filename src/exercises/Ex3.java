@@ -1,4 +1,6 @@
-package help;
+package exercises;
+
+import help.ContentFromExample;
 
 import java.util.HashMap;
 import java.util.Iterator;

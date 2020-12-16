@@ -1,4 +1,6 @@
-package help;
+package exercises;
+
+import help.ContentFromExample;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -16,7 +18,7 @@ public class Ex1 {
     public static Set getSet(String stringMain, Set set){
 
         //1 получаем слова
-        //в нашел интересное решение фильтрации регулярными выражениями, но т.к. мы ещё не проходили лямбда. оставим пока так
+        //нашел интересное решение фильтрации регулярными выражениями, но т.к. мы ещё не проходили лямбда. оставим пока так
         String[] arrSplit_2 = ContentFromExample.getReplaceArray(stringMain);
         for (int i=0; i < arrSplit_2.length; i++) {
             set.add(arrSplit_2[i].toLowerCase());

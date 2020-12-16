@@ -1,3 +1,4 @@
+import exercises.*;
 import help.*;
 
 public class Main {
@@ -35,6 +36,10 @@ public class Main {
         Ex4.start();
 
         System.out.println("********************************************************************");
+        Ex5.start();
+
+        System.out.println("********************************************************************");
         Ex6.start();
+
     }
 }

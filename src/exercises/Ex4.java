@@ -1,11 +1,10 @@
-package help;
+package exercises;
+
+import help.ContentFromExample;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Ex4 {
 
@@ -16,7 +15,7 @@ public class Ex4 {
 
         ArrayDeque<String> stack = new ArrayDeque<String>();
 
-        ContentFromExample  contentFromExample = new ContentFromExample();
+        ContentFromExample contentFromExample = new ContentFromExample();
         File file = contentFromExample.getFile();
 
         try (Scanner scanner=new Scanner(file)) {

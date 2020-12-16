@@ -1,4 +1,6 @@
-package help;
+package exercises;
+
+import help.ContentFromExample;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +17,7 @@ public class Ex6 {
 
         Integer counter = 0;
         HashMap<Integer,String> map = new HashMap<Integer,String>();
-        ContentFromExample  contentFromExample = new ContentFromExample();
+        ContentFromExample contentFromExample = new ContentFromExample();
         File file = contentFromExample.getFile();
         try (Scanner scanner=new Scanner(file)) {
             while (scanner.hasNextLine()) {
